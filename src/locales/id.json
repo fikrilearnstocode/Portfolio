@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "about": "Tentang",
+    "skills": "Keahlian",
+    "projects": "Proyek",
+    "experience": "Pengalaman",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "greeting": "Halo, saya",
+    "name": "Fikri Firstly",
+    "role": "Data Scientist",
+    "tagline": "Mengubah data mentah menjadi keputusan yang bermakna.",
+    "subtagline": "Spesialisasi NLP, Machine Learning, dan Analitik Big Data.",
+    "cta_projects": "Lihat Proyek",
+    "cta_cv": "Unduh CV"
+  },
+  "about": {
+    "section_label": "Tentang Saya",
+    "p1": "Saya Fikri Firstly Arrasyid Hawe, seorang Data Scientist yang bersemangat mengungkap wawasan tersembunyi dalam data. Saat ini menempuh pendidikan Magister Ilmu Komputer di Universitas Gadjah Mada, saya memadukan kedalaman teknis dan pemikiran analitis di setiap proyek.",
+    "p2": "Latar belakang saya mencakup Machine Learning, Natural Language Processing, Arsitektur Big Data, dan Tata Kelola IT — memungkinkan saya menangani masalah dari sudut pandang teknis maupun strategis. Saya menyelesaikan program Full Stack Data Analytics di RevoU, di mana saya membangun solusi data end-to-end untuk tantangan bisnis nyata.",
+    "p3": "Di luar dunia data, saya menikmati musik, film, dan membaca."
+  },
+  "skills": {
+    "section_label": "Keahlian",
+    "categories": {
+      "ds_ml": "Data Science & ML",
+      "nlp_ai": "NLP & AI",
+      "bigdata": "Big Data",
+      "viz": "Visualisasi",
+      "governance": "Tata Kelola IT",
+      "tools": "Alat"
+    }
+  },
+  "projects": {
+    "section_label": "Proyek",
+    "filter_all": "Semua",
+    "filter_ml": "Machine Learning",
+    "filter_nlp": "NLP",
+    "filter_eda": "EDA",
+    "filter_cv": "Computer Vision",
+    "view_github": "GitHub",
+    "view_notebook": "Notebook",
+    "badge_academic": "Akademik",
+    "badge_revou": "RevoU",
+    "badge_dummy": "Proyek"
+  },
+  "experience": {
+    "section_label": "Pengalaman & Pendidikan",
+    "present": "Sekarang",
+    "certificate": "Sertifikat",
+    "verify": "Verifikasi"
+  },
+  "contact": {
+    "section_label": "Hubungi Saya",
+    "description": "Saya terbuka untuk posisi data science, kolaborasi, dan proyek-proyek menarik. Jangan ragu untuk menghubungi!",
+    "email_label": "Kirim Email",
+    "or": "atau temukan saya di"
+  },
+  "footer": {
+    "built_with": "Dibangun dengan Next.js & Tailwind CSS",
+    "rights": "Hak cipta dilindungi."
+  }
+}

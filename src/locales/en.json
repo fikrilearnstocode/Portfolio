@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Fikri Firstly",
+    "role": "Data Scientist",
+    "tagline": "Turning raw data into meaningful decisions.",
+    "subtagline": "Specializing in NLP, Machine Learning, and Big Data Analytics.",
+    "cta_projects": "View Projects",
+    "cta_cv": "Download CV"
+  },
+  "about": {
+    "section_label": "About Me",
+    "p1": "I'm Fikri Firstly Arrasyid Hawe, a Data Scientist with a passion for uncovering insights hidden in data. Currently pursuing a Master's in Computer Science at Universitas Gadjah Mada, I bring a unique blend of technical depth and analytical thinking to every project.",
+    "p2": "My background spans Machine Learning, Natural Language Processing, Big Data Architecture, and IT Governance — giving me the ability to tackle problems from both a technical and strategic perspective. I completed the Full Stack Data Analytics program at RevoU, where I built end-to-end data solutions for real business challenges.",
+    "p3": "When I'm not wrangling data, I enjoy music, movies, and reading."
+  },
+  "skills": {
+    "section_label": "Skills",
+    "categories": {
+      "ds_ml": "Data Science & ML",
+      "nlp_ai": "NLP & AI",
+      "bigdata": "Big Data",
+      "viz": "Visualization",
+      "governance": "IT Governance",
+      "tools": "Tools"
+    }
+  },
+  "projects": {
+    "section_label": "Projects",
+    "filter_all": "All",
+    "filter_ml": "Machine Learning",
+    "filter_nlp": "NLP",
+    "filter_eda": "EDA",
+    "filter_cv": "Computer Vision",
+    "view_github": "GitHub",
+    "view_notebook": "Notebook",
+    "badge_academic": "Academic",
+    "badge_revou": "RevoU",
+    "badge_dummy": "Project"
+  },
+  "experience": {
+    "section_label": "Experience & Education",
+    "present": "Present",
+    "certificate": "Certificate",
+    "verify": "Verify"
+  },
+  "contact": {
+    "section_label": "Get In Touch",
+    "description": "I'm open to data science roles, collaborations, and exciting projects. Feel free to reach out!",
+    "email_label": "Send an Email",
+    "or": "or find me on"
+  },
+  "footer": {
+    "built_with": "Built with Next.js & Tailwind CSS",
+    "rights": "All rights reserved."
+  }
+}
