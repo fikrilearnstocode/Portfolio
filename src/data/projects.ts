@@ -50,7 +50,7 @@ export const projects: Project[] = [
     tags: ["Computer Vision", "Image Processing", "Python"],
     badge: "academic",
     period: "2024",
-    github: "https://github.com/fikrilearnstocode/PCD-Assignment",
+    github: "https://github.com/fikrilearnstocode/tbc-detection-system",
   },
   {
     id: "spotify-insights",
