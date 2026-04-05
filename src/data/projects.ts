@@ -39,7 +39,7 @@ export const projects: Project[] = [
     tags: ["Knowledge Graph", "NLP", "Python"],
     badge: "academic",
     period: "2024",
-    github: "https://github.com/fikrilearnstocode",
+    github: "https://github.com/fikrilearnstocode/Kecerdasan-Komputasional-dan-Pembelajaran-Mesin",
   },
   {
     id: "tb-detection",
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     tags: ["Computer Vision", "Image Processing", "Python"],
     badge: "academic",
     period: "2024",
-    github: "https://github.com/fikrilearnstocode",
+    github: "https://github.com/fikrilearnstocode/PCD-Assignment",
   },
   {
     id: "spotify-insights",
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     tags: ["EDA", "Python", "Data Visualization", "Tableau"],
     badge: "revou",
     period: "March 2023",
-    github: "https://github.com/fikrilearnstocode",
+    github: "https://github.com/fikrilearnstocode/Data-Analyst",
   },
   {
     id: "customer-churn",
@@ -69,7 +69,7 @@ export const projects: Project[] = [
     tags: ["Machine Learning", "Classification", "Python", "Scikit-learn"],
     badge: "dummy",
     period: "2024",
-    github: "https://github.com/fikrilearnstocode",
+    github: "https://github.com/fikrilearnstocode/portfolio/tree/main/notebooks",
     notebook: "notebooks/customer-churn-prediction.ipynb",
   },
   {
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     tags: ["EDA", "SQL", "Python", "Data Visualization"],
     badge: "dummy",
     period: "2024",
-    github: "https://github.com/fikrilearnstocode",
+    github: "https://github.com/fikrilearnstocode/portfolio/tree/main/notebooks",
     notebook: "notebooks/ecommerce-sales-analytics.ipynb",
   },
   {
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     tags: ["NLP", "Sentiment Analysis", "Text Mining", "Python"],
     badge: "dummy",
     period: "2024",
-    github: "https://github.com/fikrilearnstocode",
+    github: "https://github.com/fikrilearnstocode/portfolio/tree/main/notebooks",
     notebook: "notebooks/twitter-sentiment-analysis.ipynb",
   },
   {
@@ -102,7 +102,7 @@ export const projects: Project[] = [
     tags: ["Machine Learning", "Regression", "Python", "XGBoost"],
     badge: "dummy",
     period: "2024",
-    github: "https://github.com/fikrilearnstocode",
+    github: "https://github.com/fikrilearnstocode/portfolio/tree/main/notebooks",
     notebook: "notebooks/house-price-prediction.ipynb",
   },
   {
@@ -113,7 +113,7 @@ export const projects: Project[] = [
     tags: ["EDA", "Time Series", "Visualization", "Python"],
     badge: "dummy",
     period: "2024",
-    github: "https://github.com/fikrilearnstocode",
+    github: "https://github.com/fikrilearnstocode/portfolio/tree/main/notebooks",
     notebook: "notebooks/covid19-indonesia-analysis.ipynb",
   },
 ];
