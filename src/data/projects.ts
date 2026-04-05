@@ -16,7 +16,8 @@ export type ProjectTag =
   | "Tableau"
   | "Scikit-learn"
   | "XGBoost"
-  | "Data Visualization";
+  | "Data Visualization"
+  | "Clustering";
 
 export interface Project {
   id: string;
@@ -115,5 +116,27 @@ export const projects: Project[] = [
     period: "2024",
     github: "https://github.com/fikrilearnstocode/covid19-indonesia-analysis",
     notebook: "notebooks/covid19-indonesia-analysis/covid19-indonesia-analysis.ipynb",
+  },
+  {
+    id: "employee-attrition",
+    title: "Employee Attrition Analysis",
+    description:
+      "HR analytics project predicting employee attrition using classification models. Covers EDA of workforce demographics, statistical hypothesis testing (t-test, chi-square), feature engineering, and model comparison (Logistic Regression, Random Forest, XGBoost) with SHAP-based feature importance.",
+    tags: ["Machine Learning", "Classification", "EDA", "Python", "Scikit-learn", "XGBoost"],
+    badge: "dummy",
+    period: "2023",
+    github: "https://github.com/fikrilearnstocode/employee-attrition-analysis",
+    notebook: "notebooks/employee-attrition-analysis/employee-attrition-analysis.ipynb",
+  },
+  {
+    id: "pakistan-ecommerce",
+    title: "Pakistan E-Commerce Customer Segmentation",
+    description:
+      "Customer segmentation and sales analysis of Pakistan's largest e-commerce platform. Uses RFM analysis and K-Means clustering to identify customer segments, with time-series revenue trends, regional breakdowns, product category performance, and ANOVA validation.",
+    tags: ["EDA", "Clustering", "Python", "Data Visualization", "Time Series"],
+    badge: "dummy",
+    period: "2023",
+    github: "https://github.com/fikrilearnstocode/pakistan-ecommerce-analysis",
+    notebook: "notebooks/pakistan-ecommerce-analysis/pakistan-ecommerce-analysis.ipynb",
   },
 ];
