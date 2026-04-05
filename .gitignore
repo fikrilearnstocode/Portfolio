@@ -46,3 +46,4 @@ next-env.d.ts
 # python notebooks cache
 notebooks/.ipynb_checkpoints/
 __pycache__/
+notebooks/.claude/
