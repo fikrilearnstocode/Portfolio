@@ -103,7 +103,7 @@ export const projects: Project[] = [
     badge: "dummy",
     period: "2024",
     github: "https://github.com/fikrilearnstocode/new-york-housing-market",
-    notebook: "notebooks/house-price-prediction/New-York-Housing-Market.ipynb",
+    notebook: "notebooks/new-york-housing-market/New-York-Housing-Market.ipynb",
   },
   {
     id: "covid19-indonesia",
