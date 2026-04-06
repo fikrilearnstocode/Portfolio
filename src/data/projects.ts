@@ -40,7 +40,7 @@ export const projects: Project[] = [
     tags: ["Knowledge Graph", "NLP", "Python"],
     badge: "academic",
     period: "2024",
-    github: "https://github.com/fikrilearnstocode/Kecerdasan-Komputasional-dan-Pembelajaran-Mesin",
+    github: "https://github.com/fikrilearnstocode/krs-recommendation-system",
   },
   {
     id: "tb-detection",
