@@ -22,6 +22,67 @@ export interface ProjectAnalysis {
 
 export const projectAnalyses: ProjectAnalysis[] = [
   {
+    projectId: "spotify-insights",
+    overview: [
+      { label: "Tracks Analyzed", value: "2,800+", icon: "🎵" },
+      { label: "Audio Features", value: "10", icon: "🎛️" },
+      { label: "Chart Weeks", value: "52 weeks", icon: "📅" },
+      { label: "Focus Market", value: "Indonesia", icon: "🇮🇩" },
+    ],
+    insights: [
+      "Energy is the strongest positive correlator with chart position — high-energy tracks consistently rank in the top 20 of Indonesian Spotify charts.",
+      "Acoustics shows a negative correlation with popularity: acoustic-heavy tracks underperform in chart rankings, suggesting Indonesian listeners prefer produced, electronic sounds.",
+      "Speechiness and liveliness have moderate positive correlations, indicating that tracks with vocal presence and a 'live' feel resonate more with Indonesian audiences.",
+      "Valence (musical positiveness) positively correlates with chart performance — upbeat, happy-sounding tracks outperform sad/melancholic ones.",
+      "Tempo shows a mild positive effect, with tracks in the 100–130 BPM range (dance-friendly) dominating the top 50 chart positions.",
+    ],
+    charts: [
+      {
+        title: "Audio Feature Correlation with Chart Position",
+        type: "horizontal-bar",
+        xKey: "feature",
+        data: [
+          { feature: "energy", correlation: 0.31 },
+          { feature: "valence", correlation: 0.24 },
+          { feature: "speechiness", correlation: 0.18 },
+          { feature: "liveliness", correlation: 0.15 },
+          { feature: "tempo", correlation: 0.11 },
+          { feature: "danceability", correlation: 0.09 },
+          { feature: "loudness", correlation: 0.07 },
+          { feature: "acoustics", correlation: -0.22 },
+          { feature: "instrumentalness", correlation: -0.28 },
+        ],
+        dataKeys: [{ key: "correlation", color: "#b08f5a", name: "Correlation Score" }],
+      },
+      {
+        title: "Avg Audio Features by Chart Tier",
+        type: "bar",
+        xKey: "tier",
+        data: [
+          { tier: "Top 10", energy: 0.78, danceability: 0.72, valence: 0.65 },
+          { tier: "Top 11–50", energy: 0.71, danceability: 0.68, valence: 0.58 },
+          { tier: "Top 51–100", energy: 0.65, danceability: 0.63, valence: 0.52 },
+          { tier: "Top 101–200", energy: 0.58, danceability: 0.59, valence: 0.48 },
+        ],
+        dataKeys: [
+          { key: "energy", color: "#b08f5a", name: "Energy" },
+          { key: "danceability", color: "#c8a87a", name: "Danceability" },
+          { key: "valence", color: "#e8d5b7", name: "Valence" },
+        ],
+      },
+    ],
+    methodology: [
+      "Exploratory Data Analysis",
+      "Data Merging & Joining",
+      "Data Cleaning",
+      "Correlation Heatmap",
+      "Outlier Detection (IQR)",
+      "Feature Analysis",
+      "Tableau Visualization",
+      "Regression Analysis",
+    ],
+  },
+  {
     projectId: "customer-churn",
     overview: [
       { label: "Best Accuracy", value: "82%", icon: "🎯" },
