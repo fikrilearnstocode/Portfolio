@@ -53,6 +53,17 @@ export const projects: Project[] = [
     github: "https://github.com/fikrilearnstocode/tbc-detection-system",
   },
   {
+    id: "spotify-comprehensive",
+    title: "Spotify Indonesia — Comprehensive Analysis",
+    description:
+      "Full-spectrum analysis of Indonesian Spotify chart data applying every major analysis technique: EDA, Pearson/Spearman correlation, ANOVA, t-tests, PCA, t-SNE, K-Means, DBSCAN, hierarchical clustering, 5 classifiers (LR/KNN/SVM/RF/XGBoost), 5 regressors, SHAP explainability, and time-series trends.",
+    tags: ["Machine Learning", "EDA", "Clustering", "NLP", "Python", "Scikit-learn", "XGBoost", "Data Visualization", "Time Series"],
+    badge: "revou",
+    period: "March 2023",
+    github: "https://github.com/fikrilearnstocode/Data-Analyst",
+    notebook: "notebooks/spotify-comprehensive-analysis/spotify-comprehensive-analysis.ipynb",
+  },
+  {
     id: "spotify-insights",
     title: "Spotify Music Insights",
     description:
