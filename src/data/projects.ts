@@ -60,7 +60,7 @@ export const projects: Project[] = [
     tags: ["Machine Learning", "EDA", "Clustering", "NLP", "Python", "Scikit-learn", "XGBoost", "Data Visualization", "Time Series"],
     badge: "revou",
     period: "March 2023",
-    github: "https://github.com/fikrilearnstocode/Data-Analyst",
+    github: "https://github.com/fikrilearnstocode/spotify-comprehensive-analysis",
     notebook: "notebooks/spotify-comprehensive-analysis/spotify-comprehensive-analysis.ipynb",
   },
   {
